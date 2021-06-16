@@ -1,0 +1,53 @@
+img#Imagen-Header {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 25%
+}
+
+h1{
+    text-align:center;
+    color:#0d1130;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+h2{
+    padding-left: 1rem;
+    color:#0d1130;
+    
+}
+
+main{
+    padding: 2rem;
+    margin: 6rem 0 6rem 0; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titulos{
+    background-color:  #f2f4ff;
+    color:#0d1130;
+}
+
+.Datos{
+    font-weight: bold;
+    font-style: italic;
+}
+
+li{
+    font-weight: bold;
+}
+
+footer{
+    display:flex;
+    flex-direction: :row;
+    justify-content: center;
+    align-items:center;
+    background-color:#0d1130;
+    color: white;
+}
+
+footer img{
+    margin:0.5rem;
+
+}

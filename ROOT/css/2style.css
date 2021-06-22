@@ -1,59 +1,56 @@
-html {
-    scroll-behavior: smooth;
-}
-
-img#Imagen-Header {
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 25%;
-    scale: 0.3;   
-}
-
 header{
     background-image:url(../Img/fondo.jpg)
 }
 
 body{
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto',sans-serif; 
     background-color:rgb(245, 243, 239);
     height: 1024px;
     position: relative;
     width: 100%;
-    text-align: center;
-    font-size: large;
-    font-weight: lighter;
-}
+  
+} 
 
 h1{
-    margin-top: 3rem;
-    text-align:center;
+    margin-top: 1rem;
+    margin-left:3rem;
     color:#0e196b;
-    font-family: 'Caveat', cursive;
     font-size:2cm;
+    font-family: 'Caveat', cursive;;
+    margin-bottom: auto;
+    text-align: center;
 }
 
 h2{
-    margin-top: 3rem;
-    padding-left: 1rem;
-    color:#0d1130;   
-    font-weight: bold;
+        margin-top: 3rem;
+        padding-left: 1rem;
+        color:#0d1130;   
+        font-weight: bolder;
+     
 }
 
 main{
-    margin: 3rem 0 5rem 0; 
-    font-family: 'Roboto', cursive;
+    margin: 3rem 0 3rem 0; 
     color:#0d1130;
     height: 1024px;
     position: relative;
     width: 100%;
+    margin-left: 3rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
     
 }
 
 .titulos{
-    margin-top: 3rem;
+    margin-top: 2rem;
     color:#0d1130;
+}
 
+.h3{
+margin-top: auto;
+font-weight: bolder;
 }
 
 .Datos{
@@ -64,7 +61,6 @@ main{
 
 li{
     font-weight: bold;
-    text-align: center;
 }
 
 .boton {
@@ -81,6 +77,7 @@ li{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #854629;
     margin-top: 3rem;
+    text-align: center;
 }
 .boton:hover {
 	background:linear-gradient(to bottom, #9c4804 5%, #8b3d08 100%);
@@ -92,15 +89,6 @@ li{
 }
 
 footer{
-    display:flex;
-    flex-direction: :row;
-    justify-content: center;
-    align-items:center;
     background-image:url(../Img/fondo.jpg);
-    color:#0d1130;
-    font-weight: bolder;
 }
 
-footer img{
-    margin:0.5rem;
-}
